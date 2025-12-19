@@ -12,7 +12,7 @@ def tentukan_grade(na):
     elif na >= 40: return "D", 1.0, "Tidak Lulus"
     else: return "E", 0.0, "Tidak Lulus"
 
-st.title("🎓 Kalkulator Nilai Akademik")
+st.title("🎓 Kalkulator Nilai Akademik Semester 5 2023 Sains Data")
 st.write("Gunakan aplikasi ini untuk menghitung estimasi nilai akhir berdasarkan kontrak kuliah.")
 
 # --- SIDEBAR UNTUK PILIH MATKUL ---
@@ -26,7 +26,7 @@ matkul = st.selectbox(
         "Teori Optimasi", 
         "Keamanan dan Data Privasi", 
         "Kecerdasan Buatan", 
-        "Analitik Bisnis RB", 
+        "Analitik Bisnis", 
         "Pergudangan Data"
     ]
 )
