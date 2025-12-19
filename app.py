@@ -99,7 +99,7 @@ elif matkul == "Kecerdasan Buatan":
     k = st.number_input("Partisipasi/Quiz (15%)", 0, 100)
     na = (t*0.33) + (p*0.19) + (uts*0.17) + (uas*0.16) + (k*0.15)
 
-elif matkul == "Analitik Bisnis RB":
+elif matkul == "Analitik Bisnis":
     t = st.number_input("Tugas (25%)", 0, 100)
     uas = st.number_input("UAS (25%)", 0, 100)
     uts = st.number_input("UTS (20%)", 0, 100)
