@@ -44,7 +44,7 @@ if matkul == "Analisis Multivariat":
     p = st.number_input("Presentasi (5%)", 0, 100)
     uts = st.number_input("UTS (20%)", 0, 100)
     uas = st.number_input("UAS (25%)", 0, 100)
-    l = st.number_input("Tes Lisan (16%)", 0, 100)
+    l = st.number_input("Tugas Kelompok (16%)", 0, 100)
     na = (k*0.22) + (t*0.12) + (p*0.05) + (uts*0.20) + (uas*0.25) + (l*0.16)
 
 elif matkul == "Komputasi Statistik":
@@ -53,7 +53,7 @@ elif matkul == "Komputasi Statistik":
     pr = st.number_input("Praktikum (22%)", 0, 100)
     uts = st.number_input("UTS (14%)", 0, 100)
     uas = st.number_input("UAS (19%)", 0, 100)
-    l = st.number_input("Tes Lisan (15%)", 0, 100)
+    l = st.number_input("Tugas Kelompok (15%)", 0, 100)
     na = (part*0.20) + (t*0.10) + (pr*0.22) + (uts*0.14) + (uas*0.19) + (l*0.15)
     info_praktikum = True
 
@@ -113,7 +113,7 @@ elif matkul == "Pergudangan Data":
     uts = st.number_input("UTS (20%)", 0, 100)
     k = st.number_input("Kuis (13%)", 0, 100)
     t = st.number_input("Observasi Tugas (10%)", 0, 100)
-    l = st.number_input("Tes Lisan/Kelompok (5%)", 0, 100)
+    l = st.number_input("Tugas Kelompok (5%)", 0, 100)
     na = (pr*0.30) + (uas*0.22) + (uts*0.20) + (k*0.13) + (t*0.10) + (l*0.05)
     info_praktikum = True
 
